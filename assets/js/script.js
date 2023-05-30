@@ -47,4 +47,5 @@ for(let i = 0; i < articlesPlats.length; i++){
     cartePlats.appendChild(h3Created);
     cartePlats.appendChild(textCreated);
     cartePlats.appendChild(imgCreated);
+    
 }

@@ -12,24 +12,22 @@
 <body>
     <header>
         <div id="theTitle">
-            <h1>"BON APP"</h1>
+            <h1><span>"</span>BON APP<span>"</span></h1>
         </div>
         <div id="headingNav">
-            <div>
                 <ul>
                     <li>PLATS</li>
                     <li>BLOG</li>
                     <li>CONTACT</li>
                 </ul>
-            </div>
+        </div>
             <div id="divDark">
                 <button id="darkButton">DARK</button>
             </div>
-        </div>
     </header>
 
     <main>
-        <div id="tabAbonnements">
+        <section id="tabAbonnements">
             <h2>NOS ABONNEMENTS</h2>
             <table>
                 <tr class="bcgGrey">
@@ -48,13 +46,89 @@
                     <td>149 euros/mois</td>
                 </tr>
             </table>
-        </div>
+        </section>
 
-        <div id="cartePlats">
+        <section id="cartePlats">
             <h2>LES PLATS À LA CARTE</h2>
+            <article class="containCard">
+                <!-- <h1>iuchdicj</h1>
+                <img src="assets/img/img-12.jpg" alt="image"> -->
+            </article>
+        </section>
 
-        </div>
+
+
+
+        <section class="blogCards">
+            <article class="blogCard">
+                <img src="assets/img/pic01.jpg" alt="Image">
+                <h3 class="titleBlogCard">UN SUPER TITRE</h3>
+                <p class="textBlogCard">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, atque similique. Reiciendis maiores dolorem temporibus consequatur, rerum id eum perferendis tempora, facilis explicabo eos sed quam autem, error incidunt non?</p>
+            </article>
+            <article class="blogCard">
+                <img src="assets/img/pic02.jpg" alt="Image">
+                <h3 class="titleBlogCard">UN SUPER TITRE</h3>
+                <p class="textBlogCard">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, atque similique. Reiciendis maiores dolorem temporibus consequatur, rerum id eum perferendis tempora, facilis explicabo eos sed quam autem, error incidunt non?</p>
+            </article>
+            <article class="blogCard">
+                <img src="assets/img/pic03.jpg" alt="Image">
+                <h3 class="titleBlogCard">UN SUPER TITRE</h3>
+                <p class="textBlogCard">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, atque similique. Reiciendis maiores dolorem temporibus consequatur, rerum id eum perferendis tempora, facilis explicabo eos sed quam autem, error incidunt non?</p>
+            </article>
+            <article class="blogCard">
+                <img src="assets/img/pic04.jpg" alt="Image">
+                <h3 class="titleBlogCard">UN SUPER TITRE</h3>
+                <p class="textBlogCard">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, atque similique. Reiciendis maiores dolorem temporibus consequatur, rerum id eum perferendis tempora, facilis explicabo eos sed quam autem, error incidunt non?</p>
+            </article>
+        </section>
     </main>
+
+    <footer>
+        <section>
+            <form>
+                <h3>FORMULAIRE DE CONTACT</h3>
+                <p class="titleDetail">Pour plus de détails vous pouvez consulter notre site <a href="https://www.edenschool.fr/" target="_blank">ici</a></p>
+                <h4>INFORMATIONS DE CONTACT</h4>
+                    <fieldset>
+                        <legend>Quel est votre age</legend>
+                        <input type="radio" id="age1214">
+                        <label for="age1214">12-14</label>
+                        <input type="radio" id="age1517">
+                        <label for="age1517">15-17</label>
+                        <input type="radio" id="age1819">
+                        <label for="age1819">18-19</label>
+                    </fieldset>
+    
+                <label for="name">nom :</label>
+                <input type="text" placeholder="Saisissez votre nom" id="name">
+                <label for="mail">mail :</label>
+                <input type="text" placeholder="Saisissez votre mail" id="mail">
+    
+                <h4>VOTRE JEU PREFERE</h4>
+                <label for="chooseConsole">Choisissez une console :</label>
+                <select name="console" id="chooseConsole">
+                    <option value="default" selected disabled hidden>--Choisissez votre console--</option>
+                    <option value="xbox">Xbox</option>
+                    <option value="playstation">Playstation</option>
+                    <option value="pc">Pc</option>
+                    <option value="nintendo">Nintendo</option>
+                </select>
+                <label for="chooseGame">Choisissez un jeu :</label>
+                <select name="game" id="chooseGame">
+                    <option value="default" selected disabled hidden>--Choisissez votre jeu--</option>
+                    <option value="fortnite">Fortnite</option>
+                    <option value="minecraft">Minecraft</option>
+                    <option value="gta">Gta</option>
+                    <option value="clashroyale">Clash Royale</option>
+                </select>
+                <h4>VOTRE MESSAGE</h4>
+                <input type="text" placeholder="Saisissez votre message">
+                <label for="pass">cryptage du message :</label>
+                <input type="password" id="pass">
+            </form>
+        </section>
+        
+    </footer>
     
     <script src="assets/js/script.js"></script>
 </body>

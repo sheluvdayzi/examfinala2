@@ -4,7 +4,116 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
+
+header{
+    background-color: #4F5E75;
+    display: flex;
+}
+
+header h1{
+    font-family: 'Righteous', cursive;
+}
+
+#theTitle{
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 span{
+    color: #EF8354;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    padding: 7%;
+    color: white;
+}
+
+#divDark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+#darkButton{
+    background-color: #2D3040;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    height: 5vh;
+    width: 10vw;
+}
+
+#tabAbonnements{
+    text-align: center;
+}
+
+#tabAbonnements table{
+    display: flex;
+    justify-content: center;
+}
+
+#tabAbonnements table tr td{
+    border: 2px solid black;
+    height: 5vh;
+    width: 25vw;
+}
+
+.bcgGrey{
+    background-color: #525E74;
+    color: white;
+}
+
+.containeCard{
+    width: 80%;
+    height: 2vh;
+}
+
+.containCard{
+    display: flex;
+    width: 90%;
+    margin: 2vh 0;
+    background-color: #EAECEB;
+}
+
+.imgCard{
+    object-fit: fill;
+    width: 30vw;
+}
+
+.imgContain{
+    object-fit: cover;
+    overflow: hidden;
+    width: 20vw;
+    height: 20vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* font-family: 'Lato', sans-serif;

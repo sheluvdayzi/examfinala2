@@ -61,3 +61,13 @@ for(let i = 0; i < articlesPlats.length; i++){
     divPH3Contain.appendChild(h3Created);
     divPH3Contain.appendChild(textCreated);
 }
+
+
+let darkButton = document.querySelector('#darkButton');
+let clickDark = document.querySelector('.clickDark');
+
+darkButton.addEventListener('click', () => {
+    clickDark.style.display = 'flex';
+    // document.body.style.backgroundColor = '#465268';
+    
+});

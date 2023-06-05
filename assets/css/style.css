@@ -223,11 +223,75 @@ form p{
     height: 10vh;
     margin: 0 auto;
 }
+
+@media screen and (min-width: 680px){
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    li{
+        padding: 7%;
+        color: white;
+    }
+    #darkButton{
+        height: 3vh;
+        width: 8vw;
+    }
+    .blogCards{
+        width: 100%;
+    }
+    .blogCard{
+        width: 40%;
+        margin: 0 auto;
+    }
+    .bloc1, .bloc2{
+        display: flex;
+        justify-content: space-around;
+        padding: 1vh;
+    }
+}
+
+
+.clickDark{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #465268;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    z-index: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* FLEX COLUMN FORM */
-
-
-
-
 
 
 /* font-family: 'Lato', sans-serif;

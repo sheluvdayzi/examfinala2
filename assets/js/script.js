@@ -1,4 +1,4 @@
-const articlesPlats = [ // 
+const articlesPlats = [
     {
     imgSrc: "assets/img/img-01.jpg",
     alt: "photo de plat",
@@ -68,6 +68,4 @@ let clickDark = document.querySelector('.clickDark');
 
 darkButton.addEventListener('click', () => {
     clickDark.style.display = 'flex';
-    // document.body.style.backgroundColor = '#465268';
-    
 });
